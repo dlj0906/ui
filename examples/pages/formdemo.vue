@@ -154,7 +154,7 @@ export default {
               value: 'code'
             },
             method: 'get',
-            dicUrl: 'https://cli.avuejs.com/api/area/getProvince',
+            // dicUrl: 'https://cli.avuejs.com/api/area/getProvince',
             change: ({value, column}) => {
               console.log(value)
             }
